@@ -3,7 +3,7 @@ module github.com/Nanai10a/twomeat-4th-hooking
 go 1.13
 
 require (
-	github.com/Nanai10a/hhooking v0.0.0-20210605091049-6efbd0928aa6
+	github.com/Nanai10a/hhooking v0.0.0-20210606024737-f1bce937faab
 	github.com/andybalholm/brotli v1.0.3 // indirect
 	github.com/joho/godotenv v1.3.0 // indirect
 	github.com/klauspost/compress v1.13.0 // indirect
