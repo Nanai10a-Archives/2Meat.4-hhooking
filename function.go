@@ -6,9 +6,15 @@ import (
 	"os"
 
 	"github.com/Nanai10a/hhooking"
+    "github.com/joho/godotenv"
 )
 
 func Gcf(w http.ResponseWriter, r *http.Request) {
+    err := godotenv.Load()
+    if err != nil {
+        // TODO: err handling
+    }
+
 	key := os.Getenv("PUB_KEY")
 	if key == "" {
 		key = "" // FIXME
